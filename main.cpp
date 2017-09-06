@@ -15,7 +15,8 @@ int main()
     c = a;
     cout << a << " " << b << endl;
     a = b;
-    cout << a << " " << c << endl;
+    b = c;
+    cout << a << " " << b << endl;
 
     return 0;
 }
